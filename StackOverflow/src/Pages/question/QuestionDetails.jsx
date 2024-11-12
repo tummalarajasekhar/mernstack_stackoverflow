@@ -17,7 +17,7 @@ const QuestionDetails = () => {
     const questionlist =useSelector((state)=>state.questionreducer)
 
     
-    
+    console.log(questionlist)
     
     const user =useSelector((state)=>state.currentuserreducer)
     const { id } = useParams();
@@ -70,7 +70,7 @@ const QuestionDetails = () => {
   return (
     <div className="question-details-page">
         {questionlist.data === null ?(
-            <h1>Loading...2</h1>
+            <h1>Loading...</h1>
             
         ):(
             <>

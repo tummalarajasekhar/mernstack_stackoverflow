@@ -2,7 +2,7 @@ import React from 'react'
 import moment from 'moment'
 import { Link,useParams } from 'react-router-dom'
 import Avatar from '../../components/avatar/Avatar'
-import { useDispatch } from 'react-redux'
+import { useDispatch,useSelector } from 'react-redux'
 import { deleteanswer } from '../../action/question'
 
 function DisplayAnswer({question,handleshare}) {
