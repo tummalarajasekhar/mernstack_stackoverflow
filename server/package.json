@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "npm install -g nodemon",
     "start": "node_modules/.bin/nodemon index.js"
   },
   "keywords": [],
