@@ -8,7 +8,7 @@ function HomeMainBar() {
   const location = useLocation();
   const navigate = useNavigate();
   const questionlist = useSelector((state)=>state.questionreducer)
-  console.log(questionlist)
+  console.log(questionlist,user)
   const checkauth = () => {
     if (user === null) {
       alert("Login or signup to ask a question")
