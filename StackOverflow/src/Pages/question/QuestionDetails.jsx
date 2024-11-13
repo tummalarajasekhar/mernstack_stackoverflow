@@ -24,7 +24,7 @@ const QuestionDetails = () => {
     
     const location=useLocation()
     const navigate=useNavigate()
-    const url="http://localhost:3000"
+    const url="https://mernstack-stackoverflow-2.onrender.com/"
     const handlepostans=(e,answerlength)=>{
         e.preventDefault();
         if(user ===null){
