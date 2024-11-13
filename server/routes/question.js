@@ -1,5 +1,5 @@
 import express from "express"
-import { Askquestion,getallquestion,deletequestion,votequestion } from "../controller/question.js";
+import { Askquestion,getallquestion,deletequestion,votequestion } from "../controller/Question.js";
 
 
 import auth from "../middleware/auth.js"
