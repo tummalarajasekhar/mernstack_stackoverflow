@@ -19,7 +19,7 @@ export const signup=async(req,res)=>{
             email:newuser.email,id:newuser._id
 
         },process.env.JWT_SECRET,{expiresIn:"1h"})
-        res.status(200).json({result:newuser,token});
+        res.status(200).json({message:newuser,token});
     } catch(error){
         res.status(500).json("something went wrong...")
         return 
