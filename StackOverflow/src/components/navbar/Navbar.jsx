@@ -64,8 +64,8 @@ function Navbar({ handleSlideIn }) {
                     ) : (
                         <>
                             <Avatar backgroundColor='#009dff' px='10px' py='7px' borderRadius='50%' color="white">
-                                <Link to={`/Users/${user?.result?._id}`} style={{ color: "white", textDecoration: "none" }}>
-                                    {user.result?.name?.charAt(0).toUpperCase()}
+                                <Link to={`/Users/${user?.message?._id}`} style={{ color: "white", textDecoration: "none" }}>
+                                    {user.message?.name?.charAt(0).toUpperCase()}
                                 </Link>
                             </Avatar>
                             <button className="nav-tem nav-links" onClick={handlelogout}>Log out</button>
